@@ -1,0 +1,12 @@
+[package]
+name = "albion-loot-logger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pcap = "2.2.0"
+etherparse = "0.15.0"
+byteorder = "1.5.0"
+# 可选：若不想手写 Protocol16 反序列化，可从 GitHub 引入现成的 photon_decode
+# photon_decode = { git = "https://github.com" }
+photon_decode = { git = "https://github.com" }
